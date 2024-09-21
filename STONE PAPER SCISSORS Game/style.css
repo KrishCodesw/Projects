@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: #394a51 */
+
+    background: linear-gradient(to right, #243949 0%, #517fa4 100%);
+}
+.container{
+    height:78dvh;
+    border: 5px solid #6ebda3; 
+    margin-top:50px;
+    margin-right: 15px;
+    margin-left: 15px;
+    border-top-left-radius:15px ;
+    border-top-right-radius:15px ;
+    border-bottom-left-radius:10px ;
+    border-bottom-right-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 205px;
+    
+}
+.heading{
+    width:100dvw;
+    /* border:2px solid black; */
+    display:flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    margin:5px;
+    /* padding:5px;  */
+    text-align: center;
+    font-size: 6.5vmin;
+    font-family:"Poppins";
+    color:#fdc57b
+
+}
+.choices{
+    display: flex;
+    justify-content:center;
+    gap:5.5rem;
+    align-items: center;
+
+}
+.choice:hover{
+/* opacity: 0.5; */
+cursor: pointer;
+background-color:#202021;
+}
+.choice  {
+    width:165px;
+    height:165px;
+    border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+    /* object-fit: cover; */
+}
+img{
+    width:150px;
+    height:150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.scoreboard{
+    display: flex;
+justify-content: center;
+align-items: center;
+font-size: 2rem;
+margin-top: 3rem;
+gap: 5rem;
+
+}
+#userscore,#compscore{
+    font-size: 4rem;
+ 
+}
+
+.msg-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100vw; */
+    margin-top: 2.5rem;
+
+}
+#msg{
+    background-color: #fbf2d5;
+    font-size: 2rem;
+    font-family: Poppins;
+    background-color: #2cbbde;
+    border-radius: 15px;
+}
+#reset{
+    background-color: #fbf2d5;
+    font-size: 2rem;
+    font-family: Poppins;
+    background-color: #2cbbde;
+    border-radius: 15px;
+    padding-left: 5px;
+    margin-left: 15px;
+    
+  }
+  .reset-btn{
+    
+    /* width:15vmin;
+    height: 6vmin; */
+    border-radius: 15px;
+    border:#548687;
+    /* box-sizing: border-box; */
+    /* color:white; */
+    font-size: 2rem;
+    /* font-style:normal; */
+    
+    font-family: 'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+    /* position: absolute; */
+    /* top:680px; */
+    background-color:#2cbbde
+    /* padding:3px; */
+
+
+  }

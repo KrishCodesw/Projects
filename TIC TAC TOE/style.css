@@ -1,0 +1,134 @@
+html, body { 
+    margin: 0;
+    overflow: hidden;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    background-color: #548687;
+    text-align: center;
+  }
+  .container{
+    height: 70dvh;
+    display:flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    /* border:2px solid black; */
+    
+gap:1.5vmin;
+
+  }
+
+  .game{
+    height:60vmin;
+    /* border:2px solid black; */
+    width:60vmin;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+
+
+  }
+  .heading{
+    width:100dvw;
+    /* border:2px solid black; */
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin:15px;
+    /* padding:22px;  */
+    text-align: center;
+    font-size: 4vmin;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+  }
+  
+  .box{
+    width:18vmin;
+    height: 18vmin;
+    border-radius: 1rem;
+    border:#548687;
+    background-color: #ffffc7;
+    box-sizing: border-box;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.3);
+    font-size: 8vmin;
+    color:#b0413e;
+   
+  }
+
+  .reset-btn{
+    width:15vmin;
+    height: 6vmin;
+    border-radius: 1rem;
+    border:#548687;
+    /* box-sizing: border-box; */
+    color:white;
+    font-size: 2.8vmin;
+    font-style:normal;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+    position: absolute;
+    /* top:680px; */
+    background-color:rgba(35, 32, 32, 0.849);
+    /* padding:3px; */
+
+
+  }
+  #reset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18vmin;
+    padding-left: 35px;
+    
+  }
+  .new-btn{
+    width:15vmin;
+    height: 6vmin;
+    border-radius: 1rem;
+    border:#548687;
+    /* box-sizing: border-box; */
+    color:white;
+    font-size: 2.8vmin;
+    font-style:normal;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+    position: absolute;
+    /* top:680px; */
+    background-color:rgba(35, 32, 32, 0.849);
+    /* padding:3px; */
+
+  }
+  #new{
+
+   width: 18vmin;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:28px;
+  }
+
+  .msg{
+    border:2px solid black;
+    height:7vmin;
+
+  }
+   p{
+    font-size:55px;
+  }
+  /* .button{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    justify-content: space-around;
+
+  } */
+   .hide{
+    display: none;
+   }
